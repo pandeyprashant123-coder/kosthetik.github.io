@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <title>Kosthetik</title>
+   <link rel="stylesheet" type="text/css" href="Aesthetics.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+   <a href="#top" class="topbtn"><i class="fas fa-arrow-up"></i></a>
+   <header id="top">
+      <a href="#">
+         <img src="img/logo.jpg" alt="Kosthetik">
+      </a>
+
+   </header>
+   <div id="sticky_navigation">
+      <div class="hamburger">
+         <a onclick="toggle()"><i class="fas fa-bars"></i></a>
+      </div>
+      <nav id="navbar">
+         <ul class="navlist">
+            <li><a href="../home page/home.html">Home</a></li>
+            <li><a href="#" class="active">Medical Aesthetics</a></li>
+            <li>
+               <div class="cosmetics">
+                  <button class="dropbtn">Cosmetics</button>
+                  <div class="cosmetics-content">
+                     <a href="../Color_Cosmetics/Color_Cosmetics.html">Colour cosmetics</a>
+                     <a href="../Functional_Cosmetics/Functional_Cosmetics.html">Functional cosmetics</a>
+                  </div>
+                  <div class="rescosmetic">
+                     <a href="../Color_Cosmetics/Color_Cosmetics.html">Colour cosmetics</a>
+                     <a href="../Functional_Cosmetics/Functional_Cosmetics.html">Functional cosmetics</a>
+                  </div>
+               </div>
+            </li>
+            <li><a href="../Training/Training.html">Training</a></li>
+            <li><a href="../consulting/consulting.html">consulting</a></li>
+
+            <!-- <li><a href="#">Shipping</a></li> -->
+            <!-- <li><a href="#">FAQs</a></li> -->
+            <li><a href="#">About</a></li>
+            <li><a href="../Contact/Contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="icon">
+         <a href="#">
+            <i class="fab fa-facebook-f"></i>
+         </a>
+         <a href="#">
+            <i class="fab fa-instagram"></i>
+         </a>
+      </div>
+   </div>
+   <div class="slider_background">
+      <div class="slider">
+      </div>
+   </div>
+   <div class="container">
+      <div class="heading">
+         <h1 class="mt-5">MEDICAL AESTHETICS</h1>
+         <p>Aesthetic medicine is a broad term for specialties that focus on altering cosmetic appearance through the
+            treatment of conditions including scars, skin laxity, wrinkles, moles, liver spots, excess fat, cellulite,
+            unwanted hair, skin discoloration and spider veins.
+         </p>
+      </div>
+      <div class="row-btn">
+         <div class="row col-md-4 mx-1 px-0">
+            <div class="dropdown">
+               <button class="dropbtn1 btn-light">Botulex</button>
+               <div class="btn-content">
+                  <a href="#" onclick="Fil()">Botulex</a>
+                  <a href="#" onclick="hutox()">Hutox</a>
+                  <a href="#" onclick="lipo()">LIPO LABcs TOX5</a>
+               </div>
+            </div>
+         </div>
+         <div class="row col-md-4 mx-1 px-0">
+            <div class="dropdown">
+               <button class="dropbtn1 btn-light">Filler</button>
+               <div class="btn-content">
+                  <a href="#" onclick="Rest()">Hermosa</a>
+                  <a href="#" onclick="qt()">QT Plus</a>
+                  <a href="#" onclick="filler()">Sardenya Filler</a>
+                  <a href="#" onclick="revolex()">Revolax</a>
+                  <a href="#" onclick="cute()">CUTEGEL</a>
+               </div>
+            </div>
+
+         </div>
+         <div class="row col-md-4 mx-1 px-0">
+            <button class="btn btn-light" onclick="iskin()">ISKIN</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button class="btn btn-light" onclick="multi()">Multi Master</button>
+         </div>
+         <div class="row col-md-4 mx-1 px-0">
+            <div class="dropdown">
+               <button class="dropbtn1 btn-light">Obesity</button>
+               <div class="btn-content">
+                  <a href="#" onclick="obm()">Triplebody Main</a>
+                  <a href="#" onclick="obs()">Triplebody Slides</a>
+                  <a href="#" onclick="obs()">Lipo Lab-PPC</a>
+               </div>
+            </div>
+
+         </div>
+         <div class="row col-md-8 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="omega()">Omega Hydro Peel</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="prp()">PRP activator</button>
+         </div>
+      </div>
+      <div id="rest">
+         <div class="row col-md-10">
+            <div class="textimgfil">
+               <h5>SIX ranges</h5>
+               <ul>
+                  <li>Soft</li>
+                  <li>Mild</li>
+                  <li>Hard</li>
+                  <li>Ultra</li>
+                  <li>shine</li>
+               </ul>
+               <p>HERMOSA SHINE(Royal5) is optimized to the treatment of under-eye circles with a ideal semi-crosslinked
+                  hyaluronic acid. The rheological properties were specially optimized to the under-eye circles area.
+                  The low absorption and expansion rate with middle to low viscoelasticity reduce the swelling rate.</p>
+               <div class="table-responsive">
+                  <table class="table">
+                     <tr>
+                        <th>Optimized Characterization</th>
+                     </tr>
+                     <tr>
+                        <td>Middle to low viscoelasticity</td>
+                        <td> – High spreading performance<br>
+                           – Easy to injection and positioning
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Low absorption rate</td>
+                        <td>– Low pressure on the tissue<br>
+                           – Reduce of edema and swelling
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <p>Simple solution to brighten the dark impression</p>
+               <ul>
+                  <li>Simple procedure without incision</li>
+                  <li>Easy treatment with short procedure time</li>
+                  <li>Little swelling after treatment</li>
+               </ul>
+               <h5>Specification</h5>
+               <ul>
+                  <li>Microbolus technique with needle</li>
+                  <li>Retrograde technique with cannula</li>
+                  <li><b>Her [Esthetic Vaginal Filler for Women]</b><br>The Esthetic Vaginal (EV) Filler treatment is a
+                     safe procedure without harm to the human body. When the EV filler is injected into the vaginal
+                     mucosa, the wrinkles on the vaginal wall can be restored to improve the satisfaction of sexual
+                     intercourse. Conventional esthetic vaginal surgery has the potential to cause damage to blood
+                     vessels and nerves, However, the EV Filler treatment is excellent for maintaining the sexuality of
+                     women because there is no such risks.</li>
+                  <li>Not a surgery</li>
+                  <li>Little pain and no scars at all.</li>
+                  <li>Safe and effective</li>
+                  <li>Protects women’s sexuality without vaginal vascular and nerve damage.</li>
+                  <li>Treatment time is only 10~15 mins</li>
+                  You can have sexual intercourse after a week of EV Filler surgery.
+               </ul>
+               <h5>Advantage of HERMOSA Her EV Filler</h5>
+               <ul>
+                  <li>Hermosa Her is a proven product that has been officially approved by the Korea Food and Drug
+                     Administration (KFDA).</li>
+                  <li>Hermosa Her’ is superior in durability and volume maintenance due to its higher density and
+                     crosslinking rate than the regular HA filler used on the face.</li>
+                  <li>Hermosa Her helps the collagen regeneration of the injected area and maintain a natural voluminous
+                     feel for a long time.</li>
+               </ul>
+               <h5>A Person who need HERMOSA Her</h5>
+               <ul>
+                  <li>● A Person with phobia of surgery</li>
+                  <li>A person who does not have the time to treat in a busy daily life</li>
+                  <li>A person who wants a more satisfying sex life</li>
+                  <li>A person whose sexuality has decreased because of the increase in vagina due to birth, etc</li>
+                  <li>A person who wants a quick recovery after treatment</li>
+                  <li>A person who does not want to inform to spouse about the treatment</li>
+               </ul>
+               <img src="img/hermosa1.png" class="img-fluid" alt="Responsive image">
+               <img src="img/hermosa2.png" class="img-fluid" alt="Responsive image">
+            </div>
+         </div>
+      </div>
+
+      <div id="qt">
+         <div class="row col-md-10">
+            <div class="textimgFil">
+               <p>The last but certainly not least are the QT Fillers. QT Fillers are 100% Biodegradable. These series
+                  of fillers are extremely hydrating and are hydrophilic. Allowing the filler to absorb and lock in
+                  moisture as well as water to give you a voluminous filler. Their fillers have a broad range of
+                  duration from low up to the long-lasting ones. Another great thing about QT Plus fillers is that their
+                  fillers are made with High-Density Tapping Process h-DTP. What this means is that QT Plus fillers have
+                  a high viscosity, allowing it to give you an excellent volume and retain its shape. What's more, is
+                  that QT Fillers are easily moldable and can last for a long period of time.
+               </p>
+               <h5>Advantages of Using QT Plus Hyaluronic Acid Fillers</h5>
+               <ul>
+                  <li>
+                     <h6>Thinks about Your Safety as Their Top Priority</h6>
+                     <p>QT Plus Hyaluronic Acid Fillers are made under exacting quality control, ensuring that the
+                        hyaluronic corrosive fillers won’t be hurtful to the individuals who use it.</p>
+                  </li>
+                  <li>
+                     <h6>High Viscosity</h6>
+                     <p>QT Plus Fillers are defined with a h-DTP (High-Density Tapping Process), which utilizes less
+                        BDDE, guaranteeing that the filler will save its thick and voluminous shape for the entire term.
+                     </p>
+                  </li>
+                  <li>
+                     <h6>Regular Looking Results</h6>
+                     <p>These fillers can give you an extraordinary volume that is unobtrusive enough to look regular,
+                        which is ideal for improving your facial highlights.</p>
+                  </li>
+               </ul>
+               <h5>Advantages</h5>
+               <ul>
+                  <li>Higher pH eliminates soils normal nonpartisan disinfectants can’t.</li>
+                  <li>Mild lemon scent.</li>
+                  <li>EPA enrolled disinfectant.</li>
+               </ul>
+               <h5>QT Plus Fillers has 4 different fillers. </h5>
+               <img src="img/qt1.png" class="img-fluid" height="100%" width="100%">
+               <ul>
+                  <li>
+                     <h6>QTFILL Plus AQ</h6>
+                     <p>This filler is injected on your full-face. It works great for tightening your pores as well as
+                        smoothening it out. However, it can only last for up to 3 months. </p>
+                  </li>
+                  <li>
+                     <h6>QTFILL Plus Fine</h6>
+                     <p>Commonly injected along the Periorbital Line and the area around Lip Contour, QTFILL Plus Fine
+                        is a great product to correct fine lines and wrinkles. This lasts only from 3 - 6 months.
+                     </p>
+                  </li>
+                  <li>
+                     <h6>QTFILL Plus Deep</h6>
+                     <p>Usually injected along the Marionette Lines and Glabellar Lines, QTFILL Plus Deep is a great
+                        choice for those who want to correct deep lines and wrinkles. QTFILL Plus Deep can last from 6 -
+                        12 months.</p>
+                  </li>
+                  <li>
+                     <h6>QTFILL Plus Sub-Q</h6>
+                     <p>QTFILL Plus Sub-Q works great for the chin and Nasolabial Folds due to its great volume and
+                        viscosity. To add with that, this filler can last up to 12 months. </p>
+                  </li>
+               </ul>
+               <div class="table-responsive">
+                  <table class="table">
+                     <tr>
+                        <th> </th>
+                        <th>QT FILL_AQ</th>
+                        <th>QT FILL_FINE</th>
+                        <th>QT FILL_DEEP</th>
+                        <th>QT FILL_SUB-Q</th>
+                     </tr>
+                     <tr>
+                        <th>PRODUCT IMAGE</th>
+                        <td><img src="img/qt2.jpg" class="img-fluid" alt="Responsive image"></td>
+                        <td><img src="img/qt3.jpg" class="img-fluid" alt="Responsive image"></td>
+                        <td><img src="img/qt4.jpg" class="img-fluid" alt="Responsive image"></td>
+                        <td><img src="img/qt5.jpg" class="img-fluid" alt="Responsive image"></td>
+                     </tr>
+                     <tr>
+                        <th>PURPOSE</th>
+                        <td>Moisturizing,Pore tightening</td>
+                        <td>Fine wrinkle correction Deep wrinkle correction,</td>
+                        <td>Deep wrinkle correction, Volumizing</td>
+                        <td>Volumizing, Contouring</td>
+                     </tr>
+                     <tr>
+                        <th>INDICATION </th>
+                        <td>Full face</td>
+                        <td>Periorbital line,Lip contour</td>
+                        <td>Glabella lines,Nasolabila folds,Marionette lines,</td>
+                        <td>Nose/forehead contour Nasolabial folds, Chin, Body contour</td>
+                     </tr>
+                     <tr>
+                        <th>INJECTION DEPTH</th>
+                        <td>Superficial dermis</td>
+                        <td>Mid dermis</td>
+                        <td>Mid, Deep dermis</td>
+                        <td>Subcutaneous</td>
+                     </tr>
+                     <tr>
+                        <th>DURATION</th>
+                        <td>3 months</td>
+                        <td>3-6 months</td>
+                        <td>6-12 months</td>
+                        <td>over 12months</td>
+                     </tr>
+                     <tr>
+                        <th>COMPLEX VISCOSITY</th>
+                        <td>10-100pa.s</td>
+                        <td>100-200pa.s</td>
+                        <td>200-300pa.s</td>
+                        <td>300-500pa.s</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="filler">
+         <div class="row col-md- 10">
+            <div class="textimgFil">
+               <p>Deep is used to correct defects of moderate severity on most areas of the face and body. With the help
+                  of this filler nasolabial folds are filled, contours are reinforced, the shape of lips is modeled,
+                  etc. </p>
+               <p>Medium density filler. Injections are injected into the middle and deep layers of the dermis. The
+                  duration of the result is 12-18 months. One set includes 1 pre-filled disposable syringe and 2
+                  needles.</p>
+               <h5>Features of Sardenya fillers</h5>
+               <p>The Korean company YouthFilI Co., Ltd has been developing Sardenya filler containing safe hyaluronic
+                  acid since 2016. This company is one of the leaders in South Korea in the production of products for
+                  cosmetologists, plastic surgeons. Youth Fill Co., Ltd manufactures high quality products through
+                  quality control from production to final product shipment. The company is headquartered in Dajeon. The
+                  factory, which is equipped with all means of production and quality control, is located in Gunpo.</p>
+               <p>The studies were carried out in several stages, taking into account the advantages and disadvantages
+                  of their predecessors. The production of products for contour plastics is carried out in accordance
+                  with international requirements.</p>
+               <h5>Benefits</h5>
+               <p>Preparations for contouring are made from purified hyaluronic acid, which has been stabilized and
+                  subjected to several stages of cleansing using a unique technology;</p>
+               <p>Thanks to their unique technology, these contour fillers are absolutely safe;</p>
+               <p>They do not cause allergic reactions even in patients with a high risk of allergy, as a result, a skin
+                  sensitivity test is not required before using the product for contouring;</p>
+               <p>Filler Sardenya has an optimal consistency for work, these preparations have improved viscosity and
+                  fluidity. As a result, the filler is 30% more flexible than other fillers;</p>
+               <p>The composition includes anesthetic for pain relief Lidocaine, which makes the contouring procedure
+                  more comfortable for patients;</p>
+               <p>All fillers of this line contain 24 mg / ml of hyaluronic acid, differ only in the degree of
+                  stabilization, in syringes with a volume of 1.1 ml.</p>
+               <h5>Filler Research Sardenya</h5>
+               <p>Currently, the cosmetic market is in a state of "saturation", when supply exceeds demand, there is a
+                  sharp decline in product prices due to an oversupply of"sellers" in the market. As a result of intense
+                  competition in the market of drugs for cosmetologists, manufacturers are beginning to strive for the
+                  production of quality products, but the cost of drugs should be lower than that of competitors. As a
+                  result, the filler for contouring Sardenya was created, its main features:</p>
+               <p>The filler is highly purified, to achieve this effect, a multi-stage purification technology is
+                  used;<br>
+                  Raw materials of non-animal origin, no skin tests required before use;<br>
+                  Made from 100% cross-linked, uniquely stabilized hyaluronic acid;<br>
+                  Improved viscoelasticity, fluidity of the drug, easy to use;<br>
+                  Natural-looking and Ions-lasting effect from the introduction of the drug for injection ontouring;<br>
+                  Ultra-thin needles allow you make the contour plastics.<br>
+                  What are Sardenya fillers used for? Effectiveness of application<br>
+                  Sardenya fillers are used to correct age-related changes in the skin, eliminate skin defects.
+               </p>
+               <h5>Application efficiency:</h5>
+               <p>The preparations strengthen, moisturize, tighten, even out the skin;<br>
+                  Fillers Sardenya for contour plastics not only eliminate the appearance of skin imperfections, but
+                  also activate the process of natural rejuvenation
+               </p>
+               <h5>Indications for use:</h5>
+               <p>The contour plastics with these drugs are performed smooth the relief of the skin, namely, eliminate
+                  wrinkles and folds on the face, scars and post-acne
+                  phenomena, as well as to eliminate enlarged pores;<br>
+                  You can make contour plastics for a facelift in order to lift the effect and reinforce the
+                  contours;<br>
+                  It is used for the missing volume of the skin, such as filling the sunken, weakened zones of the
+                  cheeks, temples and other areas of the face with signs of tissue hypotrophy;<br>
+                  It is used for the purpose of volumetric modeling, correction of injection contour plastics of the
+                  shape of the chin, cheekbones, nose, lips.<br>
+                  Why does Sardenya last so long?<br>
+                  Fillers Sardenya have a high molecular weight and cross-linking of hyaluronic acid, which slows down
+                  the elimination (biodegradation) of drugs from the body. As a result, the effect lasts for longer
+                  period than other fillers. The number of contour plastic injections is reduced several times. This is
+                  the main difference from similar drugs.<br>
+                  When using Sardenya Deep, the result lasts from 12 to 18 months, when using Sardenya Shape - from 18
+                  months to 24 months. <br>
+                  High quality and long-term results from the use of Sardenya fillers have made this drug popular
+                  Deep, Medium density filler are used for contouring of nasolabial folds, reinforcing the contours,
+                  increasing lip volume. The drug is administered sub-dermally. The effect of the procedure lasts for
+                  12-18 months.
+               </p>
+               <h5>Procedure</h5>
+               <p>The procedure should be performed by a qualified cosmetologist.<br>
+                  The facial contouring procedure is performed under aseptic conditions During the procedure, the rules
+                  of sterility are observed.<br>
+                  Carried out in the following sequence:<br>
+                  The cosmetologist informs the patient about the course of the contouring procedure. The relevant
+                  documents are filled in.<br>
+                  The applies anesthesia for 20 minutes, after which time the doctor processes the surface with an
+                  aseptic solution
+                  During the contouring procedure, the marks the injection points with pencil.<br>
+                  The doctor prepares the syringe, injects the gel, the amount of the injected substance depends on the
+                  patient’s problem.<br>
+                  After the procedure of injection contour plastics, the cosmetologist examines the injection sites,
+                  invites the patient for a second examination in 7-10 days
+                  The procedure ends with the treatment of the injection sites with an aseptic solution.
+               </p>
+               <h5>Healing period</h5>
+               <p>After the procedure, swelling and redness on the face usually appears and lasts for 2-3 days. During
+                  this time, one should refrain from washing face or rubbing the injection sites. The skin should be
+                  treated with an antiseptic cream for the first 2-3 days.</p>
+               <h5>It is prohibited to do the following things for a week:</h5>
+               <p>To drink and smoke;<br>
+                  To use cosmetics;<br>
+                  To heavy sport, swim, sunbathe, jacuzzi, sauna, <br>
+                  Carry out other cosmetic procedures.<br>
+                  Use gentle skin care products after 2-3 days.<br>
+                  The result lasts for 12-24 months.
+               </p>
+               <h5>Precautions</h5>
+               <p>Contraindications for the procedure are:<br>
+                  Pregnancy & breastfeeding;<br>
+                  Oncological diseases;<br>
+                  Blood diseases;<br>
+                  Acute inflammatory processes in the human body;<br>
+                  Allergic reactions, damage to the skin at the injection sites.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <div id="revolex">
+         <div class="row col-md-10">
+            <div class="textimgfil">
+               <h5>EVERYBODY IS TALKING ABOUT IT</h5>
+               <p>South Korea is a leader when it comes to establishing beauty favorites; they popularized the BB cream,
+                  the K-Beauty trend, sheet masks, etc. It looks like South Korea has taken over the global aesthetic
+                  market and the hype will not take and end. The South Korean market has been growing for years with
+                  especially anti-aging products that promise the customers to stay young and beautiful. Revolax is a 6
+                  years old brand and is now South Korea’s absolute number 1 dermal filler. </p>
+               <p>But why is Revolax so outstanding? Let us look into the benefits of the product. It is a low risk and
+                  safe product, which stands out from other fillers because of the low price, making it more affordable
+                  accessible. The quality is still amazing and on a level with the higher-priced fillers. It contains a
+                  high purity of hyaluronic acid and due to the cross-linked properties, the product lasts up to 18
+                  months, which actually beats the competitors with its long-lasting effect. Normally, other filler
+                  brands last approximately 9-12 months on average, so with Revolax the customers will get a high value
+                  for their money.</p>
+               <h5>Product Characteristics and Advantages</h5>
+               <div class="table-responsive">
+                  <table class="table">
+                     <tr>
+                        <td>High Purity Hyaluronic Acid<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Non-animal<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Natural substances extracted from bacteria.<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;High purity (Endotoxin < 0.0015IU/mg)<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;Biodegradable (Natural absorption)
+                        </td>
+                        <td>Highly Cross-linking<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Fine cross-linking technology of Across<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Improved Longer durability</td>
+                     </tr>
+                     <tr>
+                        <td>Highly consistent Monophasic<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Regular and dense pattern<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Stable and constant gel structure<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Natural effect<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Soft injection</td>
+                        <td>High viscoelasticity<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Intensify Longer durability persistence.<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;Maintain elasticity by firmly supporting skin tissue</td>
+                     </tr>
+                  </table>
+                  <h5>FAST CHANGING TRENDS</h5>
+                  <p>If you are in the aesthetic business, you will probably agree that the cosmetic trends are changing
+                     quickly. We can thank social media for always keeping us updated with the newest treatments on the
+                     market. This is also one of the reasons why Revolax has grown so fast on the western market. </p>
+                  <p>Yet, maybe you are asking yourself; is this too good to be true? But no, you should not worry. The
+                     brand has been approved by MHRA and has received the CE mark, which means that it has passed
+                     several safety tests to certify for use within the EU. In the unlikely event that you are not
+                     satisfied with the result - Revolax can be dissolved as any other HA-based filler using Hyalase.
+                  </p>
+                  <h5>AN AFFORDABLE TWEAKMENT</h5>
+                  <p>Revolax is comprised of a highly consistent monophasic structure. The regular and monophasic
+                     structure gives the gel a stable consistent. It has a low content of product migration, which means
+                     that once injected, the filler is more likely to stay close to the injection site and result in a
+                     more accurate result.</p>
+                  <p>The consistency allows for natural volume, smooth injection and promotes a stronger support system
+                     within the skin structure. The product is designed in order to appear natural until it over time is
+                     absorbed into the skin.</p>
+                  <p>Revolax filler is the perfect “tweakment” if you want to maintain youthful. It is a very
+                     cost-effective product where you get great value for money and a very long-lasting result. Clients
+                     no longer have to compromise with the quality if they have big tweakment-plans that previously have
+                     been unattainable. Enjoy!</p>
+                  <h5>Ranges</h5>
+                  <p>Revolax consists of three product range. Each of them is designed to have different consistencies,
+                     which is carefully developed to achieve specific results on different face areas. Each product is
+                     available W/WO lidocaine in it.</p>
+                  <ul>
+                     <li><b>Revolax Fine Lidocaine</b>is a lightweight dermal filler, designed for the treatment of
+                        superficial lines, including crow’s feet, glabellar lines, and neck wrinkles. It quickly absorbs
+                        into the skin, creating a very natural and healthier look to the injected area.</li>
+
+                     <li><b>Revolax Deep Lidocaine</b>is a thick and longer-lasting gel, used to treat deep wrinkles and
+                        nasolabial folds or augmentation of the cheeks, chin, and lips. This mono-phasic HA filler is
+                        injected in the deep dermis or subcutaneous tissue. </li>
+                     <li><b>Revolax Sub-Q Lidocaine</b>has the thickest properties within the product line. With its
+                        advanced ability to mold, maintain structure and longevity, it is recommended for treatment of
+                        deep sized to extremely severe wrinkles including nasolabial and face (cheek, chin, or nose)
+                        contours.</li>
+                  </ul>
+               </div>
+               <img src="img/revolax4.jpg" class="img-fluid" alt="Responsive image">
+               <img src="img/revolax3.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+         </div>
+      </div>
+
+      <div id="cute">
+         <div class="row col-md-10">
+            <div class="textimgfil">
+               <img src="img/cute1.png" class="img-fluid" alt="Responsive image">
+               <img src="img/cute3.png" class="img-fluid" alt="Responsive image">
+               <p>Product Line Up<br>
+                  Covers wide range of body parts with vast product range.
+               </p>
+               <img src="img/cute4.png" class="img-fluid" alt="Responsive image">
+            </div>
+         </div>
+      </div>
+
+      <div id="fil">
+         <div class="row col-md-10">
+            <div class="imgrow">
+               <div class="textimgFilorga">
+               <img src="img/Botulax 1.jpg" alt="Filorga-img" height="100%" width="100%">
+            </div>
+            <div class="textimgFilorga">
+               <img src="img/Botulax 2.jpg" alt="Filorga-img" height="100%" width="100%">
+            </div>
+            </div>
+            
+            <div class="contents">
+               <p>BOTULAX is a peripheral muscle relaxant that contains purified botulinum toxin type A (in combination
+                  with hemagglutinin) and sodium chloride (excipient). The mechanism of action of the product is based
+                  on
+                  the ability of botulinum toxin type A to block the transmission of nerve impulses. Intramuscular
+                  administration of the toxin disrupts the synthesis of acetylcholine (a neurotransmitter that provides
+                  neuromuscular conduction) and leads to temporary paralysis of facial muscles. Reduced facial
+                  expression
+                  helps to relax the face and smooth wrinkles.
+                  The advantages of Botulax are that Botulax is strictly controlled for safety and high stable potency,
+                  has
+                  a purity of 99% and safety & efficacy have been successfully proved compared with Botox. Botulax
+                  contains
+                  100 units (U) of Clostridium botulinum toxin type A, 0.5 milligrams of albumin (human), and 0.9
+                  milligrams of sodium chloride in a sterile, vacuum-dried from without a preservative.
+               </p>
+               <h5>ACTIVE INGREDIENT:</h5>
+               <p>Clostridium Botulinum Toxin Type A</p>
+               <p>(Strain: Clostridium botulinum CBFC26)</p>
+               <p>Dose: 100Units(U) </p>
+
+               <h5>FEATURES OF BOTULAX BOTULIUM TOXIN TYPE A:</h5>
+               <ul>
+                  <li>Excellent Effect – Result appeciable improvement</li>
+                  <li>Simple Procedure – Just by few tiny injections</li>
+                  <li>Short Treatment – 10 minutes, as short as a tea break</li>
+                  <li>No Down Time – Resume normal work right away</li>
+                  <li>Fast Onset- Take only 2 to 3 days to see noticeable effect</li>
+                  <li>Outstanding Efficacy – Over 98% users satisfied with the Botulax® treatments</li>
+                  <li>Proven efficacy & Safety – The efficacy and safety of Botulium Toxin Type A are proved and
+                     verified
+                     to be comparable to botox in clinical studies.</li>
+                  <li>Global Product – Global Product, Botulium Toxin Type A has been sold in over 25 countries.</li>
+                  <li>Guarateed Safety – Approved by Health Authorities with over 10 years’ clinical practices.</li>
+               </ul>
+
+
+               <h5>APPLICATIONS/INDICATIONS:</h5>
+               <p>Not just cosmetic Botox, Botulium Toxin Type A also has therapeutic applications, Botulium Toxin Type
+                  A
+                  is used for the treatment of benign essential blepharspasm in patients 18 years of age and above. For
+                  the
+                  treatment of equinus foot deformity due to spasticity in pediatric cerebral palsy patients 2 years of
+                  age
+                  and above. And as many know Botox, for temporary improvement of serious glabellar wrinkles ranging
+                  from
+                  moderate to severe associated with corrugators muscle and/or procerus muscle activities in adults over
+                  the age of 18 and below the age of 65. The vials are generally stored in a freezer or refrigerator and
+                  they retain a shelf life of 24 months.
+               </p>
+
+               <h5>DOSAGES:</h5>
+               <p>For blepharospasm the initial recommended dose is 1.25 – 2.5 U (0.05 mL to 0.1 mL volume at each site)
+                  injected into the medial and lateral pre-tarsal orbicularis oculi of the upper lid and into the
+                  lateral
+                  pre-tarsal orbicularis oculi of the lower lid. For pediatric cerebral palsy, a total dose of 4U/kg
+                  bodyweight is recommended for the affected gastrocnemius muscle in patients with hemiplegia. And in
+                  patients with diplegia, the recommended dose is 6U/kg bodyweight divided between both legs. The
+                  maximum
+                  dose administered must not exceed 200U/patient at a time. For Glabellar wrinkles reconstituted sterile
+                  saline. 20U is used and there are additional application instructions for best practice, actual
+                  amounts
+                  vary on the presentation of the client.
+               </p>
+               <h5>EFFECTS:</h5>
+               <p>In Blepharospasm, the effects should appear within three days and peak after three weeks. For
+                  pediatric
+                  cerebral palsy applications, the expectation is improvement within four weeks of the injection. The
+                  effects vary for glabellar wrinkles due to the usually individualized dosages.
+               </p>
+               <h5>PRECAUTIONS:</h5>
+               <p>There is the possibility of reactions at the site of an injection, and effects beyond the injection
+                  site,
+                  including but not limited to asthenia, generalized muscle weakness, diplopia, ptosis, dysphagia,
+                  dysphonia, dysarthria, urinary incontinence and breathing difficulties. Serious hypersensitivity has
+                  been
+                  reported as rare. There is a caution for people with pre-existing neuromuscular disorders, and for
+                  those
+                  with corneal exposure and ulceration in blepharospasm. Botulium Toxin Type A is not to be administered
+                  at
+                  all if a patient has a known allergy to any of the ingredients, or if the patients have neuromuscular
+                  junctional disorders or known to have adverse reactions. They should not be administered while taking
+                  muscle relaxants and some antibiotics. Further, the actual effects of prolonged use are not entirely
+                  explored. There is also additional advice for the specific therapeutic conditions mentioned, as this
+                  description is not comprehensive.</p>
+               <h5>IN THE CASE OF OVERDOSE:</h5>
+               <p>In the case of an overdose it has been advised that effects may not be immediate. It is further
+                  advised
+                  that the patient be monitored for muscle weakness and/or paralysis for a period of weeks after the
+                  occurrence. There is an anti-toxin available but the caution with the anti-toxin is that it will not
+                  reduce any already apparent effects.</p>
+               <h5>EFFECTIVENESS:</h5>
+               <ul>
+                  <li>Botulax 100 iu guarantees high patient satisfaction.</li>
+                  <li>Potency variation is strictly controlled to within 91-115 units/ vial, more stringent than the
+                     legally required range.</li>
+                  <li>Size of toxin complex is 900kDa, minimize spread of botulinum toxin outside of the injection site.
+                  </li>
+                  <li>Such large and homogeneous size of the toxin complex ensures precise and uniform effect at the
+                     time
+                     of injection, guaranteeing high patient satisfaction with Botulax 100 IU.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <div id="hutox">
+         <div class="row col-md-10">
+            <div class="imgrow">
+               <div class="textimgFilorga">
+                  <img src="img/Hutox 1.jpg" height="100%" width="100%">
+               </div>
+               <div class="textimgFilorga">
+                  <img src="img/Hutox 2.png" height="100%" width="100%">
+               </div>
+            </div>
+
+            <div class="contents">
+               <p>Hutox 100 manufactured by Huons Co Ltd. is quite new in the beauty industry market. It is a peripheral
+                  muscle relaxant based on Botulinum Toxin type A and is manufactured in accordance with well-known
+                  Botox
+                  technology.
+                  Hutox is a fantastic Botulinum Toxin Type A-based injectable product that is valued in the medical and
+                  the beauty fields. With its highly purified composition and one-of-a-kind formula, it is equally good
+                  at
+                  correcting signs of aging and treating a long list of clinical conditions related to muscle
+                  spasticity,
+                  for example. It has qualities similar to those of Botox and it can be injected into the patient’s face
+                  or
+                  body.
+               </p>
+               <h5>AREAS OF INJECTIONS:</h5>
+               <ul>
+                  <li>Glabellar</li>
+                  <li>Periorbital</li>
+                  <li>Perioral</li>
+                  <li>Neck</li>
+                  <li>Armpits</li>
+                  <li>Palms (hyperhidrosis)</li>
+               </ul>
+               <h5>ADVANTAGES:</h5>
+               <ul>
+                  <li>Selective corrective action that determines the preservation of the naturalness of facial
+                     expressions
+                     against the background of complete correction of facial wrinkles</li>
+                  <li>The sustained therapeutic effect, lasting over time.</li>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+      <div id="lipo">
+         <div class="row col-md-10">
+            <div class="contents">
+               <p>Tox5 includes Acetyl hexapeptide which is commonly called as "Botox-like" peptides.
+                  It is protein component of vegetable amino acid which is excellent for removing wrinkle and improve
+                  skin tightening. It helps reduce existing wrinkle and eliminate wrinkle formation environment. It is
+                  non-irritating and non-toxic in nature. TOX5 improves the moisturizing ability of the skin and
+                  strengthens the barrier of skin firmly. It is also excellent for skin regeneration.
+               </p>
+               <h5>BENEFITS:</h5>
+               <ul>
+                  <li>Lifting & Skin Tightening, Eliminate Wrinkles</li>
+                  <li>Contouring,</li>
+                  <li>Reducing Pores and</li>
+                  <li>Dark Circles</li>
+               </ul>
+               TOX5 can be applied on any region.
+               <div class="textimgFilorga">
+                  <img src="img/Tox5.jpg" height="100%" width="100%">
+               </div>
+
+               <h5>DIRECTION:</h5>
+               <ol>
+                  <li>Apply after cleaning the face.</li>
+                  <li>Recommended to use dropper because absorption is very fast.</li>
+                  <li>Apply a drop to the vulnerable areas (eye rim, mouth rim, forehead, nose, neck) and gently tap.
+                  </li>
+                  <li>Recommended to use 2~3 times a week.</li>
+                  <li>Always seal and store the product in fridge (1~5°C).</li>
+                  <li>Use the product within 1 month after opening.</li>
+               </ol>
+               <div class="textimgFilorga">
+                  <img src="img/Tox5 Application Area.jpg" height="100%" width="100%">
+               </div>
+
+               <h5>MAIN RAW MATERIAL</h5>
+               <ul>
+                  <li>Acetyl Hexapeptide-8: purity 99.8%</li>
+                  <li>Hyaluronic acid: purity 99.8%</li>
+                  <li>Carnosine: purity 99.8%</li>
+                  <li>Misc. peptide ingredients</li>
+               </ul>
+               Packing: 1 Kit(Box) of 5ml x 5 vial(ampoule).
+
+            </div>
+         </div>
+      </div>
+
+      <div id="iskin">
+         <div class="row col-md-10">
+            <div class="imgrow">
+               <div class="textimgFilorga">
+                  <img src="img/ISKIN - 3.jpg" height="100%" width="100%">
+               </div>
+               <div class="textimgFilorga">
+                  <img src="img/ISKIN - 4.jpg" height="100%" width="100%">
+               </div>
+            </div>
+            <div class="contents">
+            <h4>Indications</h4>
+                  <ul>
+                     <li>Skin pigmentation disorder.</li>
+                     <li>Acne & acne scar</li>
+                     <li>PDT</li>
+                     <li>Photo rejuvenation</li>
+                     <li>Cutaneous vascular disorders</li>
+                  </ul>
+               <h4>Features</h4>
+               <ul>
+                  <li><b>PDT: </b>In PDT (photodynamic therapy) treatment for acne, IPL is used as the light source that
+                     activates the substance to help shrink sebaceous glands.</li>
+                  <li><b>Advanced with 8-step Level Adjustment: </b>Levels of skin types/tone can be selected from step 1-8.
+                  </li>
+                  <li><b>Shortest Charging Time: </b>Advanced charging system allows all levels from step 1 to 8 to be charged
+                     within 2.5 sec.</li>
+                  <li><b>Less Noise with high Efficiency: </b>A motor with low-noise, high rotation speed, quickly cools down
+                     lamp and filter after emission of light and keep the device in optimal light-emitting condition. </li>
+                  <li><b>Cartridge lifespan self-checking LED Indicator: </b>Indicating the time to replace cartridge with a
+                     mark of 90%, 100% and off on its consumption. </li>
+                  <li><b>Self-Checking Function: </b>Indicating the time to replace cartridge with a mark of 90%, 100% and off
+                     on its consumption. A function to detect condition of fan-cooling lamp and cartridge.</li>
+               </ul>
+               <h4>Specs</h4>
+               <div class="table-responsive">
+                  <table class="table">
+                     <tr>
+                        <td>Input Voltage</td>
+                        <td>AC 100-230V, 60Hz</td>
+                     </tr>
+                     <tr>
+                        <td>Light Source</td>
+                        <td>Xenon Lamp</td>
+                     </tr>
+                     <tr>
+                        <td>Level Adjustment</td>
+                        <td>8 Levels</td>
+                     </tr>
+                     <tr>
+                        <td>Irradiation Area</td>
+                        <td>22mm x 31mm = 682㎟</td>
+                     </tr>
+                     <tr>
+                        <td>Demensions(Main Body)</td>
+                        <td>305mm x 182mm x 102mm</td>
+                     </tr>
+                     <tr>
+                        <td>Weight (Main Body)</td>
+                        <td>Approx 1.6kg</td>
+                     </tr>
+                     <tr>
+                        <td>Dimensions (Probe)</td>
+                        <td>132mm x 42mm x 68mm</td>
+                     </tr>
+                     <tr>
+                        <td>Weight (Probe)</td>
+                        <td>Approx 115g</td>
+                     </tr>
+                     <tr>
+                        <td>Purpose For Use</td>
+                        <td>This device is to cure skin ailment by using ray, physician's prescription and guidance are needed
+                           when using.</td>
+                     </tr>
+                  </table>
+               </div>
+               
+            </div>
+            </div>
+      </div>
+
+      <div id="multi">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/Slide1 (1).pdf#toolbar=0" height="600px" width="1000px" />
+            </div>
+         </div>
+      </div>
+
+
+      <div id="obesitys">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/slide.pdf#toolbar=0" height="600px" width="1000px" />
+            </div>
+         </div>
+      </div>
+
+      <div id="obesitym">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/main.pdf#toolbar=0" height="600px" width="1000px" />
+            </div>
+         </div>
+      </div>
+
+
+      <div id="omega">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/omega.pdf#toolbar=0" height="600px" width="1000px" />
+            </div>
+         </div>
+      </div>
+
+      <div id="prp">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/prp.pdf#toolbar=0" height="600px" width="1000px" />
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script type="text/javascript" src="script.js"></script>
+
+   <script src="https://kit.fontawesome.com/335a9ecabc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
